@@ -1,0 +1,59 @@
+<doctype html>
+    <html>
+    <head>
+     <style>
+     .dept1{ list-style-type:none; } /* 불릿 없앰 */
+     .dept2{ list-style-type: upper-alpha; } /* 알파벳 대문자 */
+     .dept3{ list-style-image: url(ㅂㄹ.png);}  /* 이미지 사용 */
+     .dept1 >ul {
+        list-style: none;
+        list-style-position: inside;
+     }
+     a { text-decoration:none;
+        color: #000; }
+    nav{ 
+        width:300px;
+        margin: 0px 0px 0px 0px;  /* 위 왼쪽 아래 오른쪽 */
+        ;
+    }
+    ul{
+        list-style:none;
+        border: 1px solid #222;
+        padding: 20px;
+    }
+    li{
+        border:1px dashed #222;
+        padding:10px;
+        margin: 10px;
+    }
+     </style>
+
+    </head>
+    <body>
+     <h1>학과</h1>
+        <ul class="dept1">
+            <li>방송미디어과</li>
+            <ul>
+                <li>방송미디어과 소개</li>
+                <li>방송미디어과 소식 </li>
+            </ul>
+        </ul>
+        <ul class="dept1">
+            <li>산업디자인과</li>
+            <ul>
+                <li>산업디자인과 소개</li>
+                <li>산업디자인과 소식 </li>
+            </ul>
+        </ul>
+        <h2>학과소개</h2>
+        <nav>
+            <ul>
+                <li><a href="https://hangang-ech.sen.hs.kr/191254/subMenu.do">방송미디어과</a></li>
+                <li><a href="https://hangang-ech.sen.hs.kr/191246/subMenu.do">산업디자인과</a></li>
+                <li><a href="https://hangang-ech.sen.hs.kr/191249/subMenu.do">웹미디어콘텐츠과</a></li>
+                <li><a href="https://hangang-ech.sen.hs.kr/191247/subMenu.do">사진영상과</a></li>
+            </ul>
+        </nav>
+    </body>
+    
+    </html>

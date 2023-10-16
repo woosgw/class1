@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <style>
+        * { 
+        margin:0; /* 브라우저 기본 마진 리셋 */
+        padding:0; /* 브라우저 기본 패딩 리셋 */
+        box-sizing: border-box; /* 테두리까지 포함해서 박스 모델 너비로 계산 */
+        }
+        #container {
+         width:100%; /* 컨테이너 너비 */
+        margin:20px auto;/* 화면 중앙에 배치 */ 
+
+        #header {
+        width:100%; /* 부모 요소의 너비와 똑같게 */
+        height:120px; /* 헤더의 높이 */
+         background-color:#acacac;
+        }
+        }
+        #sidebar {
+        width: 150px; /* 너비 */
+        height: 600px;
+        float: left; /* 왼쪽으로 플로팅 */
+        background:#eee;
+        }
+        #sidebar2 {
+        width: 150px; /* 너비 */
+        height: 600px;
+        float: right; /* 왼쪽으로 플로팅 */
+        background:#eee;
+        }
+        #contents {
+        width: 900px; /* 너비 */
+        height: 600px; /* 패딩 */
+        float: left; /* 왼쪽으로 플로팅 */
+        background-color: #fff;
+        }
+        #footer {
+        width:100%; /* 부모 요소의 너비와 똑같게  */
+        height:100px; /* 푸터의 높이 */
+        background-color:#888888;
+        clear:left; /* 플로팅 해제 */
+        }
+
+
+     </style>
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <h1>웹사이트 제목</h1>
+            </header>
+
+            <aside id="sidebar">
+                <h1>좌측 메뉴바</h1>
+            </aside>
+
+            <aside id="sidebar2">
+                <h1>우측 메뉴바</h1>
+            </aside>
+
+            <section id="contents">
+                <h1>본문내용</h1>
+            </section>
+
+            <footer id="footer">
+                <h1>푸터</h1>
+            </footer>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>이벤트 공지</title>
+ <style>
+  #container {
+   width:600px;
+   margin:10px auto;
+   padding:10px;
+   text-align:center;
+    }    
+ </style>
+</head>
+<body>
+ <div id="container">
+  <h1>이벤트 공지</h1>
+  <p>이벤트를 진행합니다~~</p>
+ </div>
+ <script>
+  var seed = prompt("전체 응모자수 :", "");   // 응모자수 입력받기
+  document.write("전체 응모자수 : "+ seed + "명");
+  document.write("<br>");
+  var picked = Math.floor((Math.random()*seed)+1); // 무작위 수 뽑기
+  document.write("당첨자 : "+ picked + "번");
+  var picked = Math.floor((Math.random()*seed)+1);
+  document.write("당첨자 : "+ picked + "번");
+  var picked = Math.floor((Math.random()*seed)+1);
+  document.write("당첨자 : "+ picked + "번");
+  var picked = Math.floor((Math.random()*seed)+1);
+  document.write("당첨자 : "+ picked + "번");
+  var picked = Math.floor((Math.random()*seed)+1);
+  document.write("당첨자 : "+ picked + "번");
+ </script>
+</body>
+</html>
